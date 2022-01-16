@@ -1,6 +1,6 @@
 /*
 Created by  : Vaisakh Dileep
-Date        : 16, January, 2021
+Date        : 16, January, 2022
 Description : Permutations.
 */
 
@@ -20,6 +20,8 @@ public:
         if(current.size() == nums.size())
         {
             result.push_back(current);
+
+            return ;
         }
 
         for(int i {0}; i < nums.size(); i++)
