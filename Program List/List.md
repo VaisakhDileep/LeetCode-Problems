@@ -17,3 +17,7 @@ Program004:[c++] [approach 1](../Program004/main.cpp)<br>
 ## Watering Plants:
 
 Program005:[c++] [approach 1](../Program005/main.cpp)<br>
+
+## Watering Plants II:
+
+Program006:[c++] [approach 1](../Program006/main.cpp)<br>
