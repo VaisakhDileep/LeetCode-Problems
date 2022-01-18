@@ -1,23 +1,23 @@
-## <u>Permutations</u>:
+## Permutations:
 
 Program001:[c++] [approach 1](../Program001/main.cpp)<br>
 
-## <u>Permutations II</u>:
+## Permutations II:
 
 Program002:[c++] [approach 1](../Program002/main.cpp)<br>
 
-## <u>Next Permutation</u>:
+## Next Permutation:
 
 Program003:[c++] [approach 1](../Program003/main.cpp)<br>
 
-## <u>Merge Two Sorted Lists</u>:
+## Merge Two Sorted Lists:
 
 Program004:[c++] [approach 1](../Program004/main.cpp)<br>
 
-## <u>Watering Plants</u>:
+## Watering Plants:
 
 Program005:[c++] [approach 1](../Program005/main.cpp)<br>
 
-## <u>Watering Plants II</u>:
+## Watering Plants II:
 
 Program006:[c++] [approach 1](../Program006/main.cpp)<br>
