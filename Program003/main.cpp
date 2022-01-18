@@ -71,9 +71,11 @@ public:
 
 void debug(vector<int> &input)
 {
+    cout<<"nextPermutation(";
+
     display_vector_int(input);
 
-    cout<<": ";
+    cout<<"): ";
 
     Solution {}.nextPermutation(input);
 

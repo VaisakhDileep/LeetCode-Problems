@@ -61,13 +61,15 @@ void debug(vector<int> &input_1, vector<int> &input_2)
 
     ListNode *head_2 {create_linked_list(input_2)};
 
+    cout<<"mergeTwoLists(";
+
     display_linked_list(head_1);
 
-    cout<<"+";
+    cout<<", ";
 
     display_linked_list(head_2);
 
-    cout<<": ";
+    cout<<"): ";
 
     ListNode *result {Solution {}.mergeTwoLists(head_1, head_2)};
 
