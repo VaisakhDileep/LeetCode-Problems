@@ -73,9 +73,11 @@ void debug(vector<int> &input)
 {
     vector<vector<int>> result {Solution {}.permuteUnique(input)};
 
+    cout<<"permuteUnique(";
+
     display_vector_int(input);
 
-    cout<<": ";
+    cout<<"): ";
 
     display_vector_vector_int(result);
 }

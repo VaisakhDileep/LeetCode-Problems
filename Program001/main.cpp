@@ -59,9 +59,11 @@ void debug(vector<int> &input)
 {
     vector<vector<int>> result {Solution {}.permute(input)};
 
+    cout<<"permute(";
+
     display_vector_int(input);
 
-    cout<<": ";
+    cout<<"): ";
 
     display_vector_vector_int(result);
 }
