@@ -8,7 +8,7 @@ Description : Permutations.
 
 #include<vector>
 
-#include "../display/display.hpp"
+#include "../display_stl/display_stl.hpp"
 
 using namespace std;
 
