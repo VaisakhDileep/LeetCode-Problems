@@ -4,13 +4,9 @@ Date        : 19, January, 2022
 Description : Palindrome Linked List.
 */
 
-// This approach uses stack.
+// This approach using vector.
 
 #include<iostream>
-
-#include<vector>
-
-#include<stack>
 
 #include "../header_files/linked_list/linked_list.hpp"
 
@@ -21,31 +17,27 @@ class Solution
 public:
     bool isPalindrome(ListNode *head)
     {
-        stack<int> stk {};
+        vector<int> array {};
 
-        ListNode *current {head};
-
-        while(current != nullptr)
+        while(head != nullptr)
         {
-            stk.push(current->val);
+            array.push_back(head->val);
 
-            current = current->next;
+            head = head->next;
         }
 
-        int top_element {};
+        int start {0}, end {static_cast<int>(array.size()) - 1};
 
-        while(stk.empty() != true)
+        while(start < end)
         {
-            top_element = stk.top();
-
-            stk.pop();
-
-            if(head->val != top_element)
+            if(array[start] != array[end])
             {
                 return false;
             }
 
-            head = head->next;
+            start++;
+
+            end--;
         }
 
         return true;
