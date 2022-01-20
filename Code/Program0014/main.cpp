@@ -4,9 +4,11 @@ Date        : 20, January, 2022
 Description : Reverse Linked List.
 */
 
-// This approach solves the problem iteratively.
+// This approach solves the problem recursively.
 
 #include<iostream>
+
+#include<vector>
 
 #include "../header_files/linked_list/linked_list.hpp"
 
@@ -19,25 +21,23 @@ public:
     {
         if(head == nullptr)
         {
-            return nullptr;
+            return nullptr; // In case if the linked list is empty.
         }
 
-        ListNode *previous {head}, *current {head->next}, *next {};
-
-        previous->next = nullptr;
-
-        while(current != nullptr)
+        if(head->next == nullptr)
         {
-            next = current->next;
-
-            current->next = previous;
-
-            previous = current;
-
-            current = next;
+            return head; // The new head node.
         }
 
-        return previous;
+        ListNode *current_node {head}, *next_node {head->next}, *new_head {};
+
+        new_head = reverseList(head->next);
+
+        next_node->next = current_node;
+
+        current_node->next = nullptr;
+
+        return new_head;
     }
 };
 
@@ -49,9 +49,9 @@ void debug(vector<int> input)
 
     display_linked_list(head);
 
-    result = Solution {}.reverseList(head);
-
     cout<<"): ";
+
+    result = Solution {}.reverseList(head);
 
     display_linked_list(result);
 }
