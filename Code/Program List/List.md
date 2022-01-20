@@ -26,6 +26,7 @@ Program0002:[c++] [approach 1](../Program0002/main.cpp)<br>
 
 Program0010:[c++] [approach 1](../Program0010/main.cpp)<br>
 Program0011:[c++] [approach 2](../Program0011/main.cpp)<br>
+Program0012:[c++] [approach 3](../Program0012/main.cpp)<br>
 
 ## 735. Asteroid Collision:
 
