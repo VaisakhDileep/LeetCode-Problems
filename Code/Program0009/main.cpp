@@ -87,11 +87,13 @@ public:
 
 void debug(vector<int> &input)
 {
+    vector<int> result {};
+
     cout<<"asteroidCollision(";
 
     display_vector_int(input);
 
-    vector<int> result {Solution {}.asteroidCollision(input)};
+    result = Solution {}.asteroidCollision(input);
 
     cout<<"): ";
 

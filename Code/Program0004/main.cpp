@@ -57,9 +57,7 @@ public:
 
 void debug(vector<int> &input_1, vector<int> &input_2)
 {
-    ListNode *head_1 {create_linked_list(input_1)};
-
-    ListNode *head_2 {create_linked_list(input_2)};
+    ListNode *head_1 {create_linked_list(input_1)}, *head_2 {create_linked_list(input_2)}, *result {};
 
     cout<<"mergeTwoLists(";
 
@@ -71,7 +69,7 @@ void debug(vector<int> &input_1, vector<int> &input_2)
 
     cout<<"): ";
 
-    ListNode *result {Solution {}.mergeTwoLists(head_1, head_2)};
+    result = Solution {}.mergeTwoLists(head_1, head_2);
 
     display_linked_list(result);
 }
