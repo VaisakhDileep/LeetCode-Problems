@@ -8,7 +8,7 @@ Description : Merge Two Sorted Lists.
 
 #include<vector>
 
-#include "../header_files/linked_list/linked_list.hpp"
+#include "../header_files/ListNode/ListNode.hpp"
 
 using namespace std;
 
