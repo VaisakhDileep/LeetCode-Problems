@@ -31,6 +31,10 @@ Program0016:[c++] [approach 1](../Program0016/main.cpp)<br>
 Program0017:[c++] [approach 1](../Program0017/main.cpp)<br>
 Program0018:[c++] [approach 2](../Program0018/main.cpp)<br>
 
+## 205. Isomorphic Strings:
+
+Program0019:[c++] [approach 1](../Program0019/main.cpp)<br>
+
 ## 206. Reverse Linked List:
 
 Program0013:[c++] [approach 1](../Program0013/main.cpp)<br>
