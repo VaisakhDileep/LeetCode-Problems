@@ -4,11 +4,9 @@ Date        : 23, January, 2022
 Description : Linked List Cycle.
 */
 
-// This approach uses set.
+// This is solved using the two pointer approach.
 
 #include<iostream>
-
-#include<unordered_set>
 
 #include "../header_files/display_stl/display_stl.hpp"
 
@@ -21,21 +19,34 @@ class Solution
 public:
     bool hasCycle(ListNode *head)
     {
-        unordered_set<ListNode*> u_s {};
-
-        while(head != nullptr)
+        if((head == nullptr) or (head->next == nullptr))
         {
-            if(u_s.count(head) == 1)
+            return false;
+        }
+
+        ListNode *slow_pointer {head}, *fast_pointer {head->next->next};
+
+        while(true)
+        {
+            if(fast_pointer == nullptr)
+            {
+                return false;
+            }
+
+            if(fast_pointer->next == nullptr)
+            {
+                return false;
+            }
+
+            if(slow_pointer == fast_pointer)
             {
                 return true;
             }
 
-            u_s.insert(head);
+            slow_pointer = slow_pointer->next;
 
-            head = head->next;
+            fast_pointer = fast_pointer->next->next;
         }
-
-        return false;
     }
 };
 
