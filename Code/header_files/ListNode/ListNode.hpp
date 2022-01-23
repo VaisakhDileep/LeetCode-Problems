@@ -41,10 +41,10 @@ ListNode* create_linked_list(vector<int> &input)
 
 void display_linked_list(ListNode *list_node)
 {
-    cout<<"[";
+    cout<<"[ ";
     while(list_node != nullptr)
     {
-        cout<<list_node->val<<((list_node->next == nullptr) ? "" : " ");
+        cout<<list_node->val<<" ";
 
         list_node = list_node->next;
     }
