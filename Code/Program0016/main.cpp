@@ -45,15 +45,13 @@ public:
 
 void debug(vector<int> &input)
 {
-    TreeNode *result {};
+    TreeNode *result {Solution {}.sortedArrayToBST(input)};
 
     cout<<"sortedArrayToBST(";
 
     display_vector_int(input);
 
     cout<<"): ";
-
-    result = Solution {}.sortedArrayToBST(input);
 
     display_binary_tree(result);
 }

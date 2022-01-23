@@ -23,6 +23,11 @@ struct ListNode // This is the format used in representing linked lists in LeetC
 
 ListNode* create_linked_list(vector<int> &input)
 {
+    if(input.size() == 0)
+    {
+        return nullptr;
+    }
+
     ListNode *head_node {}, *current_node {};
 
     head_node = new ListNode {input[0], nullptr};
@@ -35,6 +40,41 @@ ListNode* create_linked_list(vector<int> &input)
 
         current_node = current_node->next;
     }
+
+    return head_node;
+}
+
+ListNode* create_linked_list_with_cycle(vector<int> &input, int tail_point_index = -1) // '-1' means that the linked list does not contain any cycle.
+{
+    if(input.size() == 0)
+    {
+        return nullptr;
+    }
+
+    ListNode *head_node {}, *current_node {}, *tail_point_node {};
+
+    head_node = new ListNode {input[0], nullptr};
+
+    current_node = head_node;
+
+    if(tail_point_index == 0)
+    {
+        tail_point_node = head_node;
+    }
+
+    for(int i {1}; i < input.size(); i++)
+    {
+        current_node->next = new ListNode {input[i], nullptr};
+
+        if(i == tail_point_index)
+        {
+            tail_point_node = current_node->next;
+        }
+
+        current_node = current_node->next;
+    }
+
+    current_node->next = tail_point_node;
 
     return head_node;
 }

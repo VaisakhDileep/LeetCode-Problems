@@ -8,7 +8,7 @@ Description : Reverse Linked List.
 
 #include<iostream>
 
-#include "../header_files/linked_list/linked_list.hpp"
+#include "../header_files/ListNode/ListNode.hpp"
 
 using namespace std;
 
