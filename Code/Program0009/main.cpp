@@ -35,7 +35,7 @@ public:
 
                 i++;
 
-                continue ;
+                continue;
             }
 
             if(stk.top() < 0)
@@ -44,7 +44,7 @@ public:
 
                 i++;
 
-                continue ;
+                continue;
             }
 
             if(asteroids[i] > 0)
@@ -53,7 +53,7 @@ public:
 
                 i++;
 
-                continue ;
+                continue;
             }
 
             top_element = stk.top();

@@ -41,7 +41,7 @@ public:
     }
 };
 
-void debug(vector<int> input)
+void debug(vector<int> &input)
 {
     ListNode *head {create_linked_list(input)}, *result {};
 

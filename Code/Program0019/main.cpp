@@ -57,7 +57,7 @@ void debug(string &input_1, string &input_2)
 
     cout<<boolalpha;
 
-    cout<<"isIsomorphic("<<input_1<<", "<<input_2<<"): "<<result;
+    cout<<"isIsomorphic(\""<<input_1<<"\", \""<<input_2<<"\"): "<<result;
 }
 
 int main()

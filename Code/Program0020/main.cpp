@@ -32,7 +32,7 @@ public:
 
             if(start == s.size())
             {
-                break;
+                break ;
             }
 
             end = start;
@@ -63,11 +63,11 @@ public:
     }
 };
 
-void debug(string input)
+void debug(string &input)
 {
     string result {Solution {}.reverseWords(input)};
 
-    cout<<"reverseWords("<<input<<"): \""<<result<<"\"";
+    cout<<"reverseWords(\""<<input<<"\"): \""<<result<<"\"";
 }
 
 int main()

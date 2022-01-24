@@ -57,7 +57,7 @@ public:
     }
 };
 
-void debug(vector<int> &input_1, int input_2, int input_3)
+void debug(vector<int> &input_1, int &input_2, int &input_3)
 {
     int result {Solution {}.minimumRefill(input_1, input_2, input_3)};
 

@@ -41,7 +41,7 @@ public:
     }
 };
 
-void debug(vector<int> &input_1, int input_2)
+void debug(vector<int> &input_1, int &input_2)
 {
     int result {Solution {}.wateringPlants(input_1, input_2)};
 
