@@ -37,6 +37,16 @@ void display_vector_int(const vector<int> &vec_int)
     cout<<"]";
 }
 
+void display_vector_string(const vector<string> &vec_string)
+{
+    cout<<"[ ";
+    for(int i {0}; i < vec_string.size(); i++)
+    {
+        cout<<"\""<<vec_string[i]<<"\" ";
+    }
+    cout<<"]";
+}
+
 void display_unordered_map_int_int(unordered_map<int, int> &unordered_map_int_int)
 {
     cout<<"[ ";
