@@ -1,3 +1,7 @@
+## 1. Two Sum:
+
+Program0027:[c++] [approach 1](../Program0027/main.cpp)<br>
+
 ## 21. Merge Two Sorted Lists:
 
 Program0004:[c++] [approach 1](../Program0004/main.cpp)<br>
