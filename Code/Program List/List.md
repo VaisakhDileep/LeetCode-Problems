@@ -34,6 +34,7 @@ Program0018:[c++] [approach 2](../Program0018/main.cpp)<br>
 ## 151. Reverse Words in a String:
 
 Program0020:[c++] [approach 1](../Program0020/main.cpp)<br>
+Program0023:[c++] [approach 2](../Program0023/main.cpp)<br>
 
 ## 186. Reverse Words in a String II*:
 

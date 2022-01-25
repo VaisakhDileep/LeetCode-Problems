@@ -4,6 +4,8 @@ Date        : 24, January, 2022
 Description : Reverse Words in a String.
 */
 
+// This approach uses extra space.
+
 #include<iostream>
 
 #include<vector>
