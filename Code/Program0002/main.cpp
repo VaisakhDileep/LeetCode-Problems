@@ -17,7 +17,7 @@ using namespace std;
 class Solution
 {
 public:
-    void recursive_solve(vector<int> &nums, unordered_map<int, int> &table, vector<vector<int>> &result, vector<int> &current)
+    void recursive_solve(vector<int> &nums, unordered_map<int, int> &u_m, vector<vector<int>> &result, vector<int> &current)
     {
         if(current.size() == nums.size())
         {
@@ -26,7 +26,7 @@ public:
             return ;
         }
 
-        for(auto itr {table.begin()}; itr != table.end(); itr++)
+        for(auto itr {u_m.begin()}; itr != u_m.end(); itr++)
         {
             if(itr->second != 0)
             {
@@ -34,7 +34,7 @@ public:
 
                 current.push_back(itr->first);
 
-                recursive_solve(nums, table, result, current);
+                recursive_solve(nums, u_m, result, current);
 
                 current.pop_back();
 
@@ -49,21 +49,21 @@ public:
 
         vector<int> current {};
 
-        unordered_map<int, int> table {};
+        unordered_map<int, int> u_m {};
 
         for(int i {0}; i < nums.size(); i++)
         {
-            if(table.find(nums[i]) != table.end())
+            if(u_m.find(nums[i]) != u_m.end())
             {
-                table[nums[i]]++;
+                u_m[nums[i]]++;
             }
             else
             {
-                table[nums[i]] = 1;
+                u_m[nums[i]] = 1;
             }
         }
 
-        recursive_solve(nums, table, result, current);
+        recursive_solve(nums, u_m, result, current);
 
         return result;
     }

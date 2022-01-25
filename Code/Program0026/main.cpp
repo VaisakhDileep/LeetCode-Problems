@@ -4,11 +4,13 @@ Date        : 25, January, 2022
 Description : Majority Element.
 */
 
-// This approach uses Boyer-Moore Majority Voting algorithm.
+// This approach uses map.
 
 #include<iostream>
 
 #include<vector>
+
+#include<unordered_map>
 
 #include "../header_files/display_stl/display_stl.hpp"
 
@@ -19,26 +21,22 @@ class Solution
 public:
     int majorityElement(vector<int> &nums)
     {
-        int result {0}, counter {0};
+        unordered_map<int, int> u_m {};
 
         for(int i {0}; i < nums.size(); i++)
         {
-            if(counter == 0)
-            {
-                result = nums[i];
+            u_m[nums[i]]++;
+        }
 
-                counter++;
-            }
-            else
+        int result {0}, count {0};
+
+        for(auto itr {u_m.begin()}; itr != u_m.end(); itr++)
+        {
+            if(itr->second > count)
             {
-                if(nums[i] == result)
-                {
-                    counter++;
-                }
-                else
-                {
-                    counter--;
-                }
+                result = itr->first;
+
+                count = itr->second;
             }
         }
 

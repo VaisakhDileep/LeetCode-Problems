@@ -39,6 +39,7 @@ Program0023:[c++] [approach 2](../Program0023/main.cpp)<br>
 ## 169. Majority Element:
 
 Program0025:[c++] [approach 1](../Program0025/main.cpp)<br>
+Program0026:[c++] [approach 2](../Program0026/main.cpp)<br>
 
 ## 186. Reverse Words in a String II*:
 
