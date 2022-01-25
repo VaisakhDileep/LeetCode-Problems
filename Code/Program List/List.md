@@ -1,6 +1,7 @@
 ## 1. Two Sum:
 
 Program0027:[c++] [approach 1](../Program0027/main.cpp)<br>
+Program0028:[c++] [approach 2](../Program0028/main.cpp)<br>
 
 ## 21. Merge Two Sorted Lists:
 
