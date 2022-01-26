@@ -26,7 +26,7 @@ struct TreeNode // This is the format used in representing trees in LeetCode.
     TreeNode(int x, TreeNode *left, TreeNode *right) : val {x}, left {left}, right {right} {}
 };
 
-void create_binary_tree(TreeNode **node, vector<int> vec_nodes, int i)
+void create_binary_tree(TreeNode **node, vector<int> vec_nodes, int i = 0)
 {
     if((i < vec_nodes.size()) and (vec_nodes[i] != INT_MIN)) // "INT_MIN" corresponds to "nullptr".
     {
