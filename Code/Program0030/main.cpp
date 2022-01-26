@@ -43,7 +43,7 @@ public:
     }
 };
 
-void debug(vector<int> input)
+void debug(vector<int> &input)
 {
     bool result {};
 
