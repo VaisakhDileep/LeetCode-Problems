@@ -65,6 +65,9 @@ Program0010:[c++] [approach 1.](../Program0010/main.cpp)<br>
 Program0011:[c++] [approach 2.](../Program0011/main.cpp)<br>
 Program0012:[c++] [approach 3.](../Program0012/main.cpp)<br>
 
+## 242. Valid Anagram:
+Program0036:[c++] [approach 1.](../Program0036/main.cpp)<br>
+
 ## 283. Move Zeroes:
 Program0015:[c++] [approach 1.](../Program0015/main.cpp)<br>
 
