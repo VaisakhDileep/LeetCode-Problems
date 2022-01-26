@@ -8,6 +8,9 @@ Program0033:[c++] [approach 1.](../Program0033/main.cpp)<br>
 ## 21. Merge Two Sorted Lists:
 Program0004:[c++] [approach 1.](../Program0004/main.cpp)<br>
 
+## 22. Generate Parentheses:
+Program0034:[c++] [approach 1.](../Program0034/main.cpp)<br>
+
 ## 31. Next Permutation:
 Program0003:[c++] [approach 1.](../Program0003/main.cpp)<br>
 
