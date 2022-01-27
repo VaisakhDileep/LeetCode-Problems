@@ -44,7 +44,7 @@ public:
     }
 };
 
-void debug(string input)
+void debug(string &input)
 {
     string result {Solution {}.capitalizeTitle(input)};
 
