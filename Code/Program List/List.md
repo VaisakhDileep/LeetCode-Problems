@@ -77,6 +77,9 @@ Program0024:[c++] [approach 1.](../Program0024/main.cpp)<br>
 ## 557. Reverse Words in a String III:
 Program0021:[c++] [approach 1.](../Program0021/main.cpp)<br>
 
+## 700. Search in a Binary Search Tree:
+Program0038:[c++] [approach 1.](../Program0038/main.cpp)<br>
+
 ## 701. Insert into a Binary Search Tree:
 Program0037:[c++] [approach 1.](../Program0037/main.cpp)<br>
 
