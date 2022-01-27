@@ -97,3 +97,6 @@ Program0005:[c++] [approach 1.](../Program0005/main.cpp)<br>
 
 ## 2105. Watering Plants II:
 Program0006:[c++] [approach 1.](../Program0006/main.cpp)<br>
+
+## 2129. Capitalize the Title:
+Program0039:[c++] [approach 1.](../Program0039/main.cpp)<br>
