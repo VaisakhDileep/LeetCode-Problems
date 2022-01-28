@@ -46,6 +46,9 @@ Program0018:[c++] [approach 2.](../Program0018/main.cpp)<br>
 Program0020:[c++] [approach 1.](../Program0020/main.cpp)<br>
 Program0023:[c++] [approach 2.](../Program0023/main.cpp)<br>
 
+## 167. Two Sum II - Input Array is Sorted:
+Program0041:[c++] [approach 1.](../Program0041/main.cpp)<br>
+
 ## 169. Majority Element:
 Program0025:[c++] [approach 1.](../Program0025/main.cpp)<br>
 Program0026:[c++] [approach 2.](../Program0026/main.cpp)<br>
