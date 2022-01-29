@@ -4,6 +4,8 @@ Date        : 28, January, 2022
 Description : Two Sum II - Input Array is Sorted.
 */
 
+// This approach uses the two-pointer method.
+
 #include<iostream>
 
 #include<vector>

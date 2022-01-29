@@ -102,6 +102,9 @@ Program0009:[c++] [approach 1.](../Program0009/main.cpp)<br>
 ## 941. Valid Mountain Array:
 Program0029:[c++] [approach 1.](../Program0029/main.cpp)<br>
 
+## 1995. Count Special Quadruplets:
+Program0045:[c++] [approach 1.](../Program0045/main.cpp)<br>
+
 ## 1305. All Elements in Two Binary Search Trees:
 Program0035:[c++] [approach 1.](../Program0035/main.cpp)<br>
 
