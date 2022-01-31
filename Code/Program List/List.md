@@ -32,6 +32,9 @@ Program0001:[c++] [approach 1.](../Program0001/main.cpp)<br>
 ## 47. Permutations II:
 Program0002:[c++] [approach 1.](../Program0002/main.cpp)<br>
 
+## 55. Jump Game:
+Program0046:[c++] [approach 1.](../Program0046/main.cpp)<br>
+
 ## 101. Symmetric Tree:
 Program0030:[c++] [approach 1.](../Program0030/main.cpp)<br>
 
