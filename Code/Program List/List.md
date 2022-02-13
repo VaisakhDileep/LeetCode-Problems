@@ -2,6 +2,9 @@
 Program0027:[c++] [approach 1.](../Program0027/main.cpp)<br>
 Program0028:[c++] [approach 2.](../Program0028/main.cpp)<br>
 
+## 9. Palindrome Number:
+Program0047:[c++] [approach 1.](../Program0047/main.cpp)<br>
+
 ## 15. 3Sum:
 Program0043:[c++] [approach 1.](../Program0043/main.cpp)<br>
 
