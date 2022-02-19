@@ -96,6 +96,9 @@ Program0015:[c++] [approach 1.](../Program0015/main.cpp)<br>
 ## 412. Fizz Buzz:
 Program0024:[c++] [approach 1.](../Program0024/main.cpp)<br>
 
+## 530. Minimum Absolute Difference in BST:
+Program0051:[c++] [approach 1.](../Program0051/main.cpp)<br>
+
 ## 557. Reverse Words in a String III:
 Program0021:[c++] [approach 1.](../Program0021/main.cpp)<br>
 
