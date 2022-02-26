@@ -120,6 +120,9 @@ Program0009:[c++] [approach 1.](../Program0009/main.cpp)<br>
 ## 783. Minimum Distance Between BST Nodes:
 Program0050:[c++] [approach 1.](../Program0050/main.cpp)<br>
 
+## 785. Is Graph Bipartite?
+Program0053:[c++] [approach 1.](../Program0053/main.cpp)<br>
+
 ## 941. Valid Mountain Array:
 Program0029:[c++] [approach 1.](../Program0029/main.cpp)<br>
 
