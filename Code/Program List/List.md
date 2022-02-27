@@ -41,6 +41,9 @@ Program0046:[c++] [approach 1.](../Program0046/main.cpp)<br>
 ## 94. Binary Tree Inorder Traversal:
 Program0049:[c++] [approach 1.](../Program0049/main.cpp)<br>
 
+## 98. Validate Binary Search Tree:
+Program0054:[c++] [approach 1.](../Program0054/main.cpp)<br>
+
 ## 100. Same Tree:
 Program0052:[c++] [approach 1.](../Program0052/main.cpp)<br>
 
