@@ -10,19 +10,32 @@ Created by : Vaisakh Dileep
 
 using namespace std;
 
+void display_vector_vector_char(const vector<vector<char>> &vec_vec_char)
+{
+    cout<<"[\n";
+    for(int i {0}; i < vec_vec_char.size(); i++)
+    {
+        cout<<" [ ";
+        for(int j {0}; j < vec_vec_char[i].size(); j++)
+        {
+            cout<<vec_vec_char[i][j]<<" ";
+        }
+        cout<<"]\n";
+    }
+    cout<<"]";
+}
+
 void display_vector_vector_int(const vector<vector<int>> &vec_vec_int)
 {
-    cout<<"[ ";
+    cout<<"[\n";
     for(int i {0}; i < vec_vec_int.size(); i++)
     {
-        cout<<"[ ";
-
+        cout<<" [ ";
         for(int j {0}; j < vec_vec_int[i].size(); j++)
         {
             cout<<vec_vec_int[i][j]<<" ";
         }
-
-        cout<<"] ";
+        cout<<"]\n";
     }
     cout<<"]";
 }

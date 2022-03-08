@@ -23,6 +23,9 @@ Program0034:[c++] [approach 1.](../Program0034/main.cpp)<br>
 ## 31. Next Permutation:
 Program0003:[c++] [approach 1.](../Program0003/main.cpp)<br>
 
+## 36. Valid Sudoku:
+Program0055:[c++] [approach 1.](../Program0055/main.cpp)<br>
+
 ## 39. Combination Sum:
 Program0007:[c++] [approach 1.](../Program0007/main.cpp)<br>
 

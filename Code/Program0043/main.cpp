@@ -75,7 +75,7 @@ void debug(vector<int> &input)
 
     display_vector_int(input);
 
-    cout<<"): ";
+    cout<<"): \n";
 
     result = Solution {}.threeSum(input);
 

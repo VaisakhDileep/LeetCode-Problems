@@ -77,7 +77,7 @@ void debug(vector<int> &input_1, int input_2)
 
     display_vector_int(input_1);
 
-    cout<<", "<<input_2<<"): ";
+    cout<<", "<<input_2<<"): \n";
 
     display_vector_vector_int(result);
 }

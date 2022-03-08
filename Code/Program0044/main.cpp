@@ -83,7 +83,7 @@ void debug(vector<int> &input_1, int &input_2)
 
     display_vector_int(input_1);
 
-    cout<<", "<<input_2<<"): ";
+    cout<<", "<<input_2<<"): \n";
 
     result = Solution {}.fourSum(input_1, input_2);
 

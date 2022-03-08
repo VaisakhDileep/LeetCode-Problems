@@ -63,7 +63,7 @@ void debug(vector<int> &input)
 
     display_vector_int(input);
 
-    cout<<"): ";
+    cout<<"): \n";
 
     display_vector_vector_int(result);
 }
