@@ -16,6 +16,7 @@ using namespace std;
 
 class Solution
 {
+public:
     void recursive_solve(TreeNode *node, vector<int> &result)
     {
         if(node == nullptr)
@@ -29,7 +30,6 @@ class Solution
         recursive_solve(node->right, result);
     }
 
-public:
     vector<int> preorderTraversal(TreeNode *root)
     {
         vector<int> result {};
