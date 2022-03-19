@@ -5,6 +5,9 @@ Program0028:[c++] [approach 2.](../Program0028/main.cpp)<br>
 ## 9. Palindrome Number:
 Program0047:[c++] [approach 1.](../Program0047/main.cpp)<br>
 
+## 14. Longest Common Prefix:
+Program0057:[c++] [approach 1.](../Program0057/main.cpp)<br>
+
 ## 15. 3Sum:
 Program0043:[c++] [approach 1.](../Program0043/main.cpp)<br>
 
